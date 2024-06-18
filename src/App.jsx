@@ -36,7 +36,7 @@ let App = () => {
             </div>
           );
         })} */}
-        {/* <Test /> */}
+        <Test />
         <Jumbo />
         <Form />
       </div>
