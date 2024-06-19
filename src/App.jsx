@@ -1,7 +1,9 @@
 import Card from "./components/Card";
 import Form from "./components/Form";
+import Input from "./components/Input";
 import Jumbo from "./components/Jumbo";
 import Navbar from "./components/Navbar";
+import State from "./components/State";
 import Test from "./components/Test";
 
 let App = () => {
@@ -26,7 +28,7 @@ let App = () => {
 
   return (
     <>
-      <Navbar />
+      {/* <Navbar /> */}
 
       <div className="row">
         {/* {data.map((val, index) => {
@@ -36,9 +38,11 @@ let App = () => {
             </div>
           );
         })} */}
-        <Test />
+        {/* <Test />
         <Jumbo />
-        <Form />
+        <Form /> */}
+        <State />
+        {/* <Input /> */}
       </div>
     </>
   );
