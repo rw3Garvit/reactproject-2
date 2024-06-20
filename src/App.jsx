@@ -2,7 +2,9 @@ import Card from "./components/Card";
 import Form from "./components/Form";
 import Input from "./components/Input";
 import Jumbo from "./components/Jumbo";
+import Multi from "./components/Multi";
 import Navbar from "./components/Navbar";
+import Product from "./components/Product";
 import State from "./components/State";
 import Test from "./components/Test";
 
@@ -41,8 +43,10 @@ let App = () => {
         {/* <Test />
         <Jumbo />
         <Form /> */}
-        <State />
+        {/* <State /> */}
         {/* <Input /> */}
+        {/* <Multi /> */}
+        <Product />
       </div>
     </>
   );
