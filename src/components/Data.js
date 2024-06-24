@@ -11,4 +11,10 @@ export let data = [
     price: 2000,
     desc: "this second producvt",
   },
+  {
+    id: 3,
+    productName: "watch",
+    price: 2000,
+    desc: "this second producvt",
+  },
 ];

@@ -1,4 +1,5 @@
 import Card from "./components/Card";
+import Effect from "./components/Effect";
 import Form from "./components/Form";
 import Input from "./components/Input";
 import Jumbo from "./components/Jumbo";
@@ -46,7 +47,8 @@ let App = () => {
         {/* <State /> */}
         {/* <Input /> */}
         {/* <Multi /> */}
-        <Product />
+        {/* <Product /> */}
+        <Effect />
       </div>
     </>
   );
